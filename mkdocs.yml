@@ -16,6 +16,7 @@ theme:
 
 nav:
   - Home: index.md
+  - Comparison: comparison.md
   - States:
       - Alabama: states/Alabama.md
       - Alaska: states/Alaska.md
