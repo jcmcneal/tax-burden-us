@@ -4,9 +4,22 @@ site_url: https://jmcnealio.github.io/tax-burden-us/
 theme:
   name: material
   palette:
-    scheme: slate
-    primary: indigo
-    accent: orange
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
   features:
     - navigation.tabs
     - navigation.indexes
