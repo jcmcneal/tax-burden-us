@@ -1,0 +1,70 @@
+site_name: US Tax Burden by State
+site_description: Comprehensive tax burden comparison across all 50 states + DC
+site_url: https://jmcnealio.github.io/tax-burden-us/
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: orange
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.tables
+
+nav:
+  - Home: index.md
+  - States:
+      - Alabama: states/Alabama.md
+      - Alaska: states/Alaska.md
+      - Arizona: states/Arizona.md
+      - Arkansas: states/Arkansas.md
+      - California: states/California.md
+      - Colorado: states/Colorado.md
+      - Connecticut: states/Connecticut.md
+      - Delaware: states/Delaware.md
+      - DC: states/District of Columbia.md
+      - Florida: states/Florida.md
+      - Georgia: states/Georgia.md
+      - Hawaii: states/Hawaii.md
+      - Idaho: states/Idaho.md
+      - Illinois: states/Illinois.md
+      - Indiana: states/Indiana.md
+      - Iowa: states/Iowa.md
+      - Kansas: states/Kansas.md
+      - Kentucky: states/Kentucky.md
+      - Louisiana: states/Louisiana.md
+      - Maine: states/Maine.md
+      - Maryland: states/Maryland.md
+      - Massachusetts: states/Massachusetts.md
+      - Michigan: states/Michigan.md
+      - Minnesota: states/Minnesota.md
+      - Mississippi: states/Mississippi.md
+      - Missouri: states/Missouri.md
+      - Montana: states/Montana.md
+      - Nebraska: states/Nebraska.md
+      - Nevada: states/Nevada.md
+      - New Hampshire: states/New Hampshire.md
+      - New Jersey: states/New Jersey.md
+      - New Mexico: states/New Mexico.md
+      - New York: states/New York.md
+      - North Carolina: states/North Carolina.md
+      - North Dakota: states/North Dakota.md
+      - Ohio: states/Ohio.md
+      - Oklahoma: states/Oklahoma.md
+      - Oregon: states/Oregon.md
+      - Pennsylvania: states/Pennsylvania.md
+      - Rhode Island: states/Rhode Island.md
+      - South Carolina: states/South Carolina.md
+      - South Dakota: states/South Dakota.md
+      - Tennessee: states/Tennessee.md
+      - Texas: states/Texas.md
+      - Utah: states/Utah.md
+      - Vermont: states/Vermont.md
+      - Virginia: states/Virginia.md
+      - Washington: states/Washington.md
+      - West Virginia: states/West Virginia.md
+      - Wisconsin: states/Wisconsin.md
+      - Wyoming: states/Wyoming.md

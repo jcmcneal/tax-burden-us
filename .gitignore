@@ -1,0 +1,5 @@
+.venv/
+site/
+states_data.json
+generate_states.py
+.DS_Store
